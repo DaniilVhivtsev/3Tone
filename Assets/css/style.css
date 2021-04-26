@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6{
   height: 101%;
 
   background: url("/Users/daniil/Documents/GitHub/3Tone/Assets/images/circles_1.2.svg") right no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
 }
 
 .intro_inner{
@@ -177,47 +177,88 @@ h1, h2, h3, h4, h5, h6{
 .ad{
   background-color: #000D84;
   width: 100%;
+  
   height: 10vh;
-  /* background: url("/Users/daniil/Documents/GitHub/3Tone/Assets/images/tekstur.png") right bottom no-repeat; */
+  
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ad_text_with_img{
+  display: flex;
+  flex-direction: row;  
+
+  width: 100%;
+  max-width: 800px;
+
+  margin-left: 40px;
 }
 
 .tekstura{
-
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
-
-  width: 100%;
+  width: 47%;
   height: 100%;
 
+  margin: auto 0px;
   background: url("/Users/daniil/Documents/GitHub/3Tone/Assets/images/tekstur.svg") right bottom no-repeat;
+  
 }
 
-.ad_content{
-  /* display: flex;
-  flex-direction: column;
-  justify-content: left;
-
-  width: 100%;
-  max-width: 1100px;
-  
-  margin: 20px auto;
-  text-align: left; */
-
-  display: flex;
-  align-items: center;
-  /* justify-content: left; */
-
-  width: auto;
-  max-width: 1100px;
-  height: 100%;
-
+.ad_img{
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .ad_text{
-
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .color_word{
   color: rgb(228, 117, 113);
+}
+
+/* News */
+
+.news{
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: auto;
+}
+
+.news_block{
+  display: block;
+  margin: 60px auto;
+  padding: 0px;
+  width: 100%;
+  max-width: 1350px;
+
+  background-color: rgb(243, 243, 243);
+}
+
+.text_logo{
+  display: inline-block;
+  vertical-align: top;
+
+  margin-top: 20px;
+  padding: 0px 25px;
+
+  background-color: rgb(209, 209, 209);
+  
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.news_text_with_img{
+  display:flex;
+  justify-content:center;
+  margin-top: 30px;
+}
+
+.img_blender_particle{
+  width: 500px;
 }
