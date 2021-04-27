@@ -354,3 +354,74 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 600;
   margin-top: 20px;
 }
+
+/* block_sign_up */
+
+.block_sign_up{
+  background-color: white;
+  color: black;
+  width: 100%;
+  /* height: auto; */
+  margin-top: 70px;
+  /* margin: 0 auto; */
+  margin-bottom: 60px;
+}
+
+.first_step_text{
+  margin-top: 0px;
+  font-size: 30px;
+  color: #747474;
+  text-align: center;
+}
+
+.sign_up_logo{
+  margin: 40px auto;
+  text-align: center;
+}
+
+.sign_up_logo_img{
+  width: 288px;
+}
+
+.line_block{
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+}
+
+.line:before,
+.line:after {
+ content: '';
+ display: inline-block;
+ width: 100%;
+ height: 1px;
+ background: #000;
+ z-index: -1;
+ position: relative;
+ vertical-align: middle;
+}
+
+.line:before {
+  right: 15px;
+  margin: -1% 0 0 -100%;
+ }
+ .line:after {
+  left: 15px;
+  margin: -1% -100% 0 0;
+ }
+
+ .btn_line_block{
+  /* margin: 10px 0px; */
+  display: inline-block;
+  /* vertical-align: top; */
+  padding: 30px 60px;
+
+  background-color: #F36D6D;
+  border-radius: 10px;
+
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+ }
