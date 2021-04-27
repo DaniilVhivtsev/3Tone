@@ -437,10 +437,10 @@ h1, h2, h3, h4, h5, h6{
    display: block;
    width: 100%;
    max-width: 1200px;
-   margin: 0 ;
+   margin: 0  auto;
    padding-top: 30px;
    height: 100%;
-   margin-left: 100px;
+   /* margin-left: 100px; */
    padding-bottom: 30px;
  }
 
@@ -461,7 +461,7 @@ h1, h2, h3, h4, h5, h6{
 
  .caption{
    color: #555454;
-   font-weight: 600;
+   /* font-weight: 600; */
    margin: 15px 0;
  }
 
