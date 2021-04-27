@@ -425,3 +425,53 @@ h1, h2, h3, h4, h5, h6{
   font-size: 40px;
   font-weight: 600;
  }
+
+ /* footer */
+ .footer{
+   width: 100%;
+   background-color: #ECECEC;
+   color: #939393;
+ }
+
+ .footer_block{
+   display: block;
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 ;
+   padding-top: 30px;
+   height: 100%;
+   margin-left: 100px;
+   padding-bottom: 30px;
+ }
+
+ .footer_block_row{
+   display: flex;
+   flex-direction: row;
+   justify-content:flex-start;
+   margin: auto;
+   padding-bottom: 40px;
+ }
+
+ .footer_block_column{
+   display: flex;
+   flex-direction: column;
+   justify-content: baseline;
+   margin: 0 auto;
+ }
+
+ .caption{
+   color: #555454;
+   font-weight: 600;
+   margin: 15px 0;
+ }
+
+ .footer_text{
+   margin: 5px 0;
+ }
+
+ .avtor_signature{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   margin: auto;
+ }
