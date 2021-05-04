@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  
+    font-size: 20px;
+    line-height: 1.6;
+    color: #FFFFFF;
+  }
+  
+  *,
+  *:before,
+  *:after{
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3, h4, h5, h6{
+    margin: 0;
+  }
+
+  /* container */
+  .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* header */
+
+  .header{
+    background-color: #27329F;
+    padding-top: 15px;
+    width: 100%;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+
+  .header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Левая часть шапки */
+.left_header{
+  display: flex;
+  justify-content:left;
+  align-items: center;
+}
+/* logo */
+.logoIndex{
+  width: 169px;
+}
+
+/* sign_in */
+.sign_in{
+  margin-left: 15px;
+  
+  text-transform: uppercase;
+}
+
