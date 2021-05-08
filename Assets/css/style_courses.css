@@ -181,11 +181,12 @@ body{
 
 .blok_for_teksure{
   /* margin: 0; */
-  position: relative;
+  /* position: relative; */
+  margin-top: 20px;
   background-color: white;
   width: 100%;
   height: 15vh;
-  z-index: 1;
+  /* z-index: 1; */
   display: flex;
   flex-direction: column;
 }
@@ -194,21 +195,22 @@ body{
 /* head_of_beginning */
 
 .head_of_beginning{
+  /* position: relative; */
   width: auto;
   height: 100%;
 
   margin: auto 0px;
-  background: url("/Users/daniil/Documents/GitHub/3Tone/Assets/images/courses_page/teksture.svg") repeat-x;
-  opacity: 0.2;
+  background: url("/Users/daniil/Documents/GitHub/3Tone/Assets/images/courses_page/teksture.svg") repeat-x ;
+  /* opacity: 0.2; */
   
   width: auto;
-  z-index: 1000;
+  z-index: 0;
 }
 
 .line_block{
   
   position: relative;
-  z-index: 1;
+  z-index: 2;
   overflow: hidden;
   text-align: center;
 }
@@ -218,7 +220,7 @@ body{
  content: '';
  display: inline-block;
  width: 100%;
- height: 1px;
+ height: 2px;
  background: #000;
  z-index: -1;
  position: relative;
@@ -235,13 +237,11 @@ body{
  }
 
  .btn_line_block{
-  /* margin: 10px 0px; */
   display: inline-block;
-  /* vertical-align: top; */
   padding: 30px 60px;
 
-  background-color: #F36D6D;
-  border-radius: 10px;
+  background-color: rgba(218, 218, 218, 0.95);
+  border-radius: 0px;
 
   text-decoration: none;
   color: black;
