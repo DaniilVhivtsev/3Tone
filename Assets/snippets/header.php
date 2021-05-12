@@ -54,7 +54,7 @@
             </div>
 
             <nav class="nav">
-                <a class = "nav_link" href="#">Курсы</a>
+                <a class = "nav_link" href="courses.php">Курсы</a>
                 <a class = "nav_link" href="#">Форум</a>
                 <a class = "nav_link" href="#">Практики</a>
             </nav>
