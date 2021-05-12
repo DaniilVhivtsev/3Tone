@@ -1,3 +1,4 @@
+<?php include 'Assets/php/sessionStart.php'; ?>
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
   <head>
@@ -8,55 +9,7 @@
   </head>
   <body>
 
-  <header class="header">
-    <div class="container">
-      <div class="header_inner">
-
-        <div class="left_header">
-          <div class="header_logo">
-            <img src="Assets/images/logo/logo_white.PNG" class="logoIndex" alt="">
-          </div>
-
-          <div onclick="document.getElementById('01').style.display='block'" class="nav_link sign_in">
-            Войти<?php echo $_SESSION["Email"] ?>
-          </div>
-        </div>
-
-        <nav class="nav">
-          <a class = "nav_link" href="#">Курсы</a>
-          <a class = "nav_link" href="#">Форум</a>
-          <a class = "nav_link" href="#">Практики</a>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <div id="01" class="modal">
-    <form class="modal-content animate" action="Assets/php/login.php">
-            <span onclick="document.getElementById('01').style.display='none'"
-                  class="close" title="Закрыть">&times;</span>
-      <div class="container_login">
-        <!-- Username -->
-        <label for="uname"><b>Имя пользователя</b></label>
-        <input type="text" placeholder="Введите имя пользователя" id="uname" required>
-
-        <!-- Password -->
-        <label for="psw"><b>Пароль</b></label>
-        <input type="password" placeholder="Введите пароль" id="psw" required>
-
-        <!-- Submit Button -->
-        <button type="submit">Войти</button>
-
-        <div>
-          <label>
-            <input type="checkbox" checked="checked" id="remember">
-            Запомни меня
-          </label>
-          <a href="#" class="reg_link">Зарегистрироваться</a>
-        </div>
-      </div>
-    </form>
-  </div>
+  <?php require("Assets/snippets/header.php");?>
 
   <div class="introBackGroundColor">
     <div class="intro">
@@ -226,17 +179,6 @@
       </div>
     </div>
   </footer>
-
-  <script>
-    // Get the modal
-    let modal = document.getElementById('01');
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-  </script>
 
   </body>
 </html>
