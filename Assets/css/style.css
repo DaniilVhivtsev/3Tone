@@ -25,8 +25,6 @@ h1, h2, h3, h4, h5, h6{
   margin: 0 auto;
 }
 
-
-
 /* Intro */
 
 .introBackGroundColor{
@@ -43,7 +41,7 @@ h1, h2, h3, h4, h5, h6{
   width: auto;
   height: 101%;
 
-  background: url("/Users/daniil/Documents/GitHub/3Tone/Assets/images/circles_1.2.svg") right no-repeat;
+  background: url("../images/circles_1.2.svg") right no-repeat;
   background-size: cover;
 }
 
@@ -76,7 +74,7 @@ h1, h2, h3, h4, h5, h6{
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 100;
 }
 
 .header_inner{
@@ -84,8 +82,6 @@ h1, h2, h3, h4, h5, h6{
   justify-content: space-between;
   align-items: center;
 }
-
-
 
 /* Левая часть шапки */
 .left_header{
@@ -101,12 +97,9 @@ h1, h2, h3, h4, h5, h6{
 /* sign_in */
 .sign_in{
   margin-left: 15px;
-  
+  cursor: pointer;
   text-transform: uppercase;
 }
-
-
-
 
 /* Правая часть шапки */
  /* nav */
@@ -202,7 +195,7 @@ h1, h2, h3, h4, h5, h6{
   height: 100%;
 
   margin: auto 0px;
-  background: url("/Users/daniil/Documents/GitHub/3Tone/Assets/images/tekstur.svg") right bottom no-repeat;
+  background: url("../images/tekstur.svg") right bottom no-repeat;
   
 }
 
@@ -455,7 +448,7 @@ h1, h2, h3, h4, h5, h6{
  .footer_block_column{
    display: flex;
    flex-direction: column;
-   justify-content: baseline;
+   justify-content: flex-start;
    margin: 0 auto;
  }
 
@@ -475,3 +468,137 @@ h1, h2, h3, h4, h5, h6{
    justify-content: flex-start;
    margin: auto;
  }
+
+/*Окно ввхода*/
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1001;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+.modal-content{
+  background-color: #3942C3;
+  margin: 5% auto 15% auto;
+  border: 1px solid #000D84;
+  width: 60%;
+  max-width: 500px;
+  border-radius: 15px;
+}
+
+.container_login {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.close{
+  position: absolute;
+  right: 25px;
+  top: 0px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: red;
+  cursor: pointer;
+}
+.reg_link {
+  float: right;
+  text-decoration: none;
+  color: white;
+}
+
+.reg_link:hover {
+  color: grey;
+}
+
+.reg_link:active {
+  text-decoration: underline #555454;
+}
+
+.error_message {
+  margin: 10px 0px;
+  padding:12px;
+  color: #D8000C;
+  background-color: #FFD2D2;
+}
+
+/* Add zoom animation */
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom{
+  from {-webkit-transform: scale(0);}
+  to {-webkit-transform: scale(1);}
+}
+
+@keyframes animatezoom{
+   from {transform: scale(0);}
+   to {transform: scale(1);}
+}
+
+/* Full width input fields */
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.login {
+  font-size: medium;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+/*Регистрация*/
+
+#registration {
+  width: 50%;
+  margin: 130px 23%;
+  position:absolute;
+}
+
+.reg_name {
+  margin-left: 35%;
+}
+
+.error {
+  color: red;
+}
+
+.reg_state {
+  margin-top: 50px;
+  margin-left: 30%;
+}

@@ -1,35 +1,15 @@
+<?php include 'Assets/php/sessionStart.php'; ?>
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="Assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <title>Main</title>
+    <title>3Tone</title>
   </head>
   <body>
 
-  <header class="header">
-    <div class="container">
-      <div class="header_inner">
-
-        <div class="left_header">
-          <div class="header_logo">
-            <img src="Assets/images/logo/logo_white.PNG" class="logoIndex" alt="">
-          </div>
-
-          <div class="sign_in">
-            Войти
-          </div>
-        </div>
-
-        <nav class="nav">
-          <a class = "nav_link" href="#">Курсы</a>
-          <a class = "nav_link" href="#">Форум</a>
-          <a class = "nav_link" href="#">Практики</a>
-        </nav>
-      </div>
-    </div>
-  </header>
+  <?php require("Assets/snippets/header.php");?>
 
   <div class="introBackGroundColor">
     <div class="intro">
@@ -46,7 +26,7 @@
 
   <div class="ad">
       <div class="ad_text_with_img">
-        <div class="ad_img"><img src="/Users/daniil/Documents/GitHub/3Tone/Assets/images/cube.svg" alt=""></div>
+        <div class="ad_img"><img src="Assets/images/cube.svg" alt=""></div>
         <div class="ad_text">Попробуй наш входной курс - <span class="color_word">3990</span> за 12 уроков!</div>
       </div>
       <div class="tekstura"></div>
@@ -60,7 +40,7 @@
       <div class="news_content">
         <div class="news_text_with_img">
 
-          <img src="/Users/daniil/Documents/GitHub/3Tone/Assets/images/image1.svg" alt="" class="img_blender_particle">
+          <img src="Assets/images/image1.svg" alt="" class="img_blender_particle">
 
           <div class="text_news">
             <ul>
@@ -73,7 +53,7 @@
       </div>
 
       <div class="logo_cube">
-        <img src="/Users/daniil/Documents/GitHub/3Tone/Assets/images/cube_black.svg" alt="" class="logo_cube12">
+        <img src="Assets/images/cube_black.svg" alt="" class="logo_cube12">
       </div>
     </div>
 
@@ -94,12 +74,12 @@
             </ul>
           </div>
 
-          <img src="/Users/daniil/Documents/GitHub/3Tone/Assets/images/image2.svg" alt="" class="img_blender_particle_2">
+          <img src="Assets/images/image2.svg" alt="" class="img_blender_particle_2">
         </div>
       </div>
 
       <div class="logo_cube">
-        <img src="/Users/daniil/Documents/GitHub/3Tone/Assets/images/cube_black.svg" alt="" class="logo_cube12">
+        <img src="Assets/images/cube_black.svg" alt="" class="logo_cube12">
       </div>
     </div>
   </div>
@@ -113,17 +93,17 @@
       <div class="row_content_why_3Tone">
 
         <div class="column_content_why_3Tone">
-          <img src="/Users/daniil/Documents/GitHub/3Tone/Assets/images/book_with_brain.svg" class = "why_3Tone_block_content_img" alt="">
+          <img src="Assets/images/book_with_brain.svg" class = "why_3Tone_block_content_img" alt="">
           <div class="why_3Tone_block_content_text">Только нужное</div>
         </div>
 
         <div class="column_content_why_3Tone">
-          <img src="/Users/daniil/Documents/GitHub/3Tone/Assets/images/hand.svg" class = "why_3Tone_block_content_img" alt="">
+          <img src="Assets/images/hand.svg" class = "why_3Tone_block_content_img" alt="">
           <div class="why_3Tone_block_content_text">Много практики</div>
         </div>
 
         <div class="column_content_why_3Tone">
-          <img src="/Users/daniil/Documents/GitHub/3Tone/Assets/images/hand_with_tablets.svg" class = "why_3Tone_block_content_img" alt="">
+          <img src="Assets/images/hand_with_tablets.svg" class = "why_3Tone_block_content_img" alt="">
           <div class="why_3Tone_block_content_text">Доступные цены</div>
         </div>
 
@@ -136,7 +116,7 @@
       Сначала нужно зарегестрировать твой аккаунт
     </div>
     <div class="sign_up_logo">
-      <img src="/Users/daniil/Documents/GitHub/3Tone/Assets/images/sign_in_logo.svg" class="sign_up_logo_img" alt="">
+      <img src="Assets/images/sign_in_logo.svg" class="sign_up_logo_img" alt="">
     </div>
     <div class="line_block">
       <div class="line">
@@ -193,7 +173,7 @@
       <hr>
 
       <div class="avtor_signature">
-        <img src="/Users/daniil/Documents/GitHub/3Tone/Assets/images/C.svg" alt="">
+        <img src="Assets/images/C.svg" alt="">
         <div style="margin-left: 10px;">3Tone</div>
         <div>,   2021 г.</div>
       </div>
