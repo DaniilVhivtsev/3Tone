@@ -1,0 +1,32 @@
+version: '3.6'
+services:
+  db:
+    image: mysql:latest
+    security_opt:
+      - seccomp:unconfined
+    environment:
+      MYSQL_ROOT_PASSWORD: dpn8R33cGyv2ik
+    volumes:
+      - "./database:/var/lib/mysql"
+    ports:
+      - 8081:3306
+  db_pma:
+    image: phpmyadmin/phpmyadmin:latest
+    depends_on:
+      - db
+    ports:
+      - 8082:80
+    environment:
+      MYSQL_ROOT_PASSWORD: dpn8R33cGyv2ik
+      PMA_USER: root
+      PMA_PASSWORD: dpn8R33cGyv2ik
+  www:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    volumes:
+      - "../:/var/www/html"
+    ports:
+      - 8080:80
