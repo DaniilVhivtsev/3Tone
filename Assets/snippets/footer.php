@@ -46,7 +46,7 @@
         <hr>
 
         <div class="avtor_signature">
-            <img src="Assets/images/C.svg" alt="">
+            <img src="/Assets/images/C.svg" alt="">
             <div style="margin-left: 10px;">3Tone</div>
             <div>,   2021 г.</div>
         </div>
