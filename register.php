@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="Assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <title>3Tone</title>
+    <title>Регистрация</title>
 </head>
 <body style="background-color: #3942C3">
     <?php require("Assets/snippets/header.php");?>

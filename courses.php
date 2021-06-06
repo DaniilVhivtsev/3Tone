@@ -134,7 +134,6 @@
         </div>
       </div>
 
-
       <div class="direction_of_course_left">
         <div class="course_professional">
 
@@ -190,9 +189,6 @@
         </a>
       </div>
     </div>
-
-
-
 
     <!-- ------------------------------------footer------------------------------------ -->
 

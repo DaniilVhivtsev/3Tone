@@ -57,3 +57,5 @@ if (isset($_POST['psw'])) {
         }
     }
 }
+
+$database->close();
