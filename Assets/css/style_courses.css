@@ -52,7 +52,7 @@ body{
 }
 /* logo */
 .logoIndex{
-  width: 169px;
+  width: 19vh;
 }
 
 /* sign_in */
@@ -118,7 +118,7 @@ body{
   width: auto;
   margin: 0 auto;
   height: 100%;
-  background: url("/Users/daniil/Documents/GitHub/3Tone/Assets/images/courses_page/image_intro.png") no-repeat;
+  background: url("/Assets/images/courses_page/image_intro.png") no-repeat;
   background-size:cover;
   
   display: flex;
@@ -198,7 +198,7 @@ body{
   height: 100%;
 
   margin: auto 0px;
-  background: url("/Users/daniil/Documents/GitHub/3Tone/Assets/images/courses_page/teksture.svg") repeat-x;
+  background: url("/Assets/images/courses_page/teksture.svg") repeat-x;
   opacity: 0.2;
   
   width: auto;

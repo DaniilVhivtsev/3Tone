@@ -62,9 +62,6 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 400;
 }
 
-
-
-
 /* header */
 .header{
   padding-top: 30px;
@@ -91,7 +88,7 @@ h1, h2, h3, h4, h5, h6{
 }
 /* logo */
 .logoIndex{
-  width: 25vh;
+  width: 19vh;
 }
 
 /* sign_in */
@@ -473,7 +470,7 @@ h1, h2, h3, h4, h5, h6{
 .modal{
   display: none;
   position: fixed;
-  z-index: 1001;
+  z-index: 101;
   left: 0;
   right: 0;
   width: 100%;
