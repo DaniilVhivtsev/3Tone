@@ -74,11 +74,13 @@
     const logout = document.getElementById('logout');
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
-        if (event.target === modal) {
-            modal.style.display = "none";
-        }
-        if (event.target === logout) {
-            logout.style.display = "none";
+        switch (event.target) {
+            case modal:
+                modal.style.display = "none";
+                break;
+            case logout:
+                logout.style.display = "none";
+                break;
         }
     }
 </script>
