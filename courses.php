@@ -10,8 +10,6 @@
     <title>Courses</title>
 </head>
 <body>
-
-
       <!-- ------------------------------------header------------------------------------ -->
 
     <?php require("Assets/snippets/header.php");?>
@@ -40,8 +38,6 @@
         </div>
     </div>
 
-
-
     <!-- ------------------------------------blok_for_teksure------------------------------------ -->
 
     <div class="blok_for_teksure">
@@ -57,9 +53,6 @@
         </div>
       </div>
     </div>
-
-
-
 
     <!-- ------------------------------------container_courses------------------------------------ -->
 
@@ -93,7 +86,7 @@
               <img src="Assets/images/courses_page/image_6.svg" class="photo_course" alt="">
             </div>
             <div >
-              <a href="#" class="button_to_start">Начать</a>
+              <a href="/course" class="button_to_start">Начать</a>
             </div>
           </div>
         </div>
