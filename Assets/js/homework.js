@@ -1,5 +1,4 @@
-let placeholder = document.getElementById("placeholder");
-const img = document.createElement("img");
+placeholder = document.getElementById("placeholder");
 
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
