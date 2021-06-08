@@ -185,7 +185,7 @@
 
     <!-- ------------------------------------footer------------------------------------ -->
 
-    <?php require("Assets/snippets/footer.php"); ?>
+    <?php require("Assets/snippets/footer.html"); ?>
     
 </body>
 </html>
