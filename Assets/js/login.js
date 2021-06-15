@@ -5,6 +5,7 @@ $(document).ready(function(){
 
         let email = $("#email").val();
         let password = $("#psw").val();
+        let save = $('#remember').is(":checked");
 
         //checking for blank fields
         if( email =='' || password =='')
@@ -24,7 +25,7 @@ $(document).ready(function(){
         }
         else
         {
-            $.post("/Assets/php/login.php",{ email: email, psw:password},
+            $.post("/Assets/php/login.php",{ email: email, psw:password, save: save},
                 function(data) {
                     if(data=='Successfully Logged in...')
                     {
@@ -32,7 +33,7 @@ $(document).ready(function(){
                         document.getElementById('01').style.display='none';
                         user.email = email;
                         if (typeof hideRegForm === "function") {
-                            showRegForm();
+                            hideRegForm();
                         }
                     }
                     else {
