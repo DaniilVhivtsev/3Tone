@@ -20,7 +20,7 @@ body{
 
   header{
     background-color: #27329F;
-    height: 80px;
+    height: 100px;
   }
 
     /* -----------Account information----------- */
@@ -28,10 +28,9 @@ body{
     .account_information{
         width: 100%;
         max-width: 1200px;
-        margin: 20px auto;
         height: auto;
 
-        margin-bottom: 52px;
+        margin: 20px auto 52px;
 
         display: flex;
         flex-direction: row;
@@ -61,7 +60,8 @@ body{
     }
 
     #number_of_id{
-        font-size: 32px;
+        font-size: 31px;
+        white-space: nowrap;
     }
 
 

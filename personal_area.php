@@ -23,7 +23,7 @@
         <div class="account_information_left_block">
             <img src="Assets/images/account_icon.svg" alt="" class="icon_account">
             <div class="name_of_account">
-                Elephant221 <br> <span id="number_of_id"> id: 89217398</span>
+                <?php echo $_SESSION['Email'];?> <br> <span id="number_of_id"> id: <?php echo $_SESSION['ID'];?></span>
             </div>
         </div>
         <div class="account_information_right_block">
