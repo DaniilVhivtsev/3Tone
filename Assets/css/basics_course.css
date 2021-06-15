@@ -18,6 +18,10 @@ body{
     margin: 0;
   }
 
+  header{
+    background-color: #27329F;
+    height: 70px;
+  }
 
 .ad{
     background-color: #000D84;
