@@ -9,6 +9,7 @@
 </head>
 <body style="background-color: #3942C3">
     <?php require("Assets/snippets/header.php");?>
+
     <script type="text/javascript" src="/Assets/js/auth.js"></script>
 
     <div id="registration" style="margin-top: 130px; position:absolute;">
@@ -31,6 +32,7 @@
             <button type="button" class="login" name="reg_user" id="reg_user">Зарегистрироваться</button>
         </form>
     </div>
+
     <script type="text/javascript">
         if(user.email.toString() !== "") {
             document.getElementById("reg_state").style.display="block";

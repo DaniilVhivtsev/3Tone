@@ -1,19 +1,4 @@
-<script type="text/javascript">
-    function clearSession() {
-        $.ajax({
-            url: "/Assets/php/logout.php",    //the page containing php script
-            type: "GET",    //request type,
-            dataType: 'html',
-            success: function () {
-                user.email="";
-                document.getElementById("logout").style.display="none";
-                if (typeof showRegForm === "function") {
-                    showRegForm();
-                }
-            }
-        });
-    }
-</script>
+<script type="text/javascript" src="/Assets/js/logout.js"></script>
 <div id="01" class="modal">
     <form class="modal-content animate">
         <div class="container_login" id="container_login">
@@ -70,66 +55,7 @@
     </div>
 </div>
 
-<script>
-    // Get the modal
-    const modal = document.getElementById('01');
-    const logout = document.getElementById('logout');
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        switch (event.target) {
-            case modal:
-                modal.style.display = "none";
-                break;
-            case logout:
-                logout.style.display = "none";
-                break;
-        }
-    }
-</script>
+<script type="text/javascript">let name = "<?php if(isset($_SESSION['Email'])) echo $_SESSION['Email']; ?>";</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript">
-    const signIn = document.getElementById('sign_in');
-    const header = document.getElementById('left_header');
-    const userName = document.createElement("div");
-    userName.classList.add("nav_link");
-    userName.classList.add("sign_in")
-    userName.onclick = function () {
-        document.getElementById("logout").style.display='block';
-    };
-
-    let user = {
-        value : '<?php if(isset($_SESSION['Email'])) {
-            echo $_SESSION["Email"];
-        }?>',
-        get email() {
-            return this.value;
-        },
-        set email(value) {
-            this.value = value;
-            this.updateUser();
-        },
-        updateUser: function() {
-            if(user.email !== '') {
-                let newContent = document.createTextNode(user.email);
-                newContent.data=this.value;
-                signIn.style.display='none';
-                header.insertBefore(userName, signIn);
-                userName.style.display='block';
-                if(userName.firstChild !== null) {
-                    userName.removeChild(userName.firstChild);
-                }
-                userName.appendChild(newContent);
-            }
-            else {
-                signIn.style.display='block';
-                userName.style.display='none';
-            }
-
-        }
-    }
-    if(user.email !== '')
-    {
-        user.updateUser();
-    }
-</script>
+<script type="text/javascript" src="/Assets/js/reactiveHeader.js"></script>
 <script type="text/javascript" src="/Assets/js/login.js"></script>

@@ -13,6 +13,7 @@
         let placeholder;
         const img = document.createElement("img");
     </script>
+
     <div id="courseModal" class="modal">
         <nav id="courseNav" class="animateMoving">
             <h2 style="margin: 5px 5px">Курс по основам Blender</h2>
@@ -20,7 +21,9 @@
             echo generateListOfSlides(1);?>
         </nav>
     </div>
+
     <?php require('../Assets/snippets/header.php'); ?>
+
     <section class="slideContainer">
         <script type="text/javascript" src="/Assets/js/slideSwitcher.js"></script>
         <script type="text/javascript">
