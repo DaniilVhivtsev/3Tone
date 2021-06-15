@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  
+    font-size: 20px;
+    line-height: 1.6;
+    color: #FFFFFF;
+    background-color: #E9E9E9;
+  }
+
+  *,
+  *:before,
+  *:after{
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3, h4, h5, h6{
+    margin: 0;
+  }
+
+
+.ad{
+    background-color: #000D84;
+    width: 100%;
+    
+    height: 56px;
+    
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ad_text_with_img{
+    display: flex;
+    flex-direction: row;  
+  
+    width: 100%;
+    max-width: 800px;
+  
+    margin-left: 40px;
+  }
+  
+  .tekstura{
+    width: 47%;
+    height: 100%;
+  
+    margin: auto 0px;
+    background: url("../images/tekstur.svg") right center no-repeat;
+    opacity: 0.7;
+  }
+  
+  .ad_img{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .ad_text{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .color_word{
+    color: rgb(228, 117, 113);
+  }
+
+
+  /* -----------Main block----------- */
+
+
+  .block_of_content{
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    height: 1660px;
+
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #FDFF87;
+  }
+
+  .left_content{
+      width: 100%;
+      height: auto;
+      margin: 20px;
+
+      display: flex;
+      flex-direction: column;
+  }
+  .first_block_of_left_content{
+      width: auto;
+      height: auto;
+      margin-left: 20px;
+      margin-right: 20px;
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .basics_text{
+      font-size: 54px;
+      font-weight: 800;
+      line-height: 60px;
+    }
+  .button_text_of_main_block{
+      margin: 0;
+      width: auto;
+      height: auto;
+  }
+  
+  .button_to_start{
+    margin: auto 15px auto 0;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 35px;
+  
+    background-color: #AA84BC;
+    /* border: 2px solid #EBEBEB; */
+    border-radius: 10px;
+  
+    text-decoration: none;
+    color: #4DFFF4;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+  }
+
+
+  .right_content{
+    width: 300px;
+    height: 100%;
+  
+    margin: auto 30px;
+    background: url("../images/squares.svg") right top repeat-y;
+  }
+
+  .block_of_left_content{
+      width: auto;
+      height: 430px;
+      margin: 50px 0px 20px 20px;
+      background-color: rgb(0, 0, 0, 0.2);
+  }
+
+  .text_in_block_of_left_content{
+      color: black;
+      display: block;
+      width: auto;
+      height: auto;
+      margin: 15px;
+  }
+
+    /* -----------Additional----------- */
+
+    .additional_content{
+        background-color: #F3F3F3;
+        width: auto;
+        height: auto;
+        padding-bottom: 68px;
+    }
+
+    .additional_blocks{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .reviews_block{
+        background-color: #E9E9E9;
+        margin: 30px 0px 0px 0px;
+        width: 100%;
+        height: 357px;
+    }
+
+    .reviews_text{
+        margin: 22px 41px;
+        color: black;
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .other_courses_content{
+        margin: 32px 61px;
+        width: auto;
+        height: auto;
+    }
+    .other_courses_text{
+        color: #747474;
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .other_courses_blocks{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .other_courses_blocks_left{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .other_courses_blocks_left_first{
+        width: 400px;
+        height: 251px;
+        background-color: #65A1E7;
+    }
+    
+    .other_courses_blocks_left_second{
+        width: 400px;
+        height: 251px;
+        background-color: #53D9A9;
+    }
+
+    .other_courses_blocks_right{
+        width: 114;
+        height: 100%;
+      
+        margin: auto;
+        margin-left: 73px;
+    }
+
+
