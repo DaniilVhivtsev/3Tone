@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  
+    font-size: 20px;
+    line-height: 1.6;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+
+  *,
+  *:before,
+  *:after{
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3, h4, h5, h6{
+    margin: 0;
+  }
+
+  header{
+    background-color: #27329F;
+    height: 80px;
+  }
+
+    /* -----------Account information----------- */
+    
+    .account_information{
+        width: 100%;
+        max-width: 1200px;
+        margin: 20px auto;
+        height: auto;
+
+        margin-bottom: 52px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .account_information_left_block{
+        width: auto;
+        height: auto;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .icon_account{
+        width: 200px;
+        height: auto;
+    }
+
+    .name_of_account{
+        margin-left: 30px;
+        font-size: 42px;
+        color: black;
+        font-weight: 500;
+        line-height: 42px;
+    }
+
+    #number_of_id{
+        font-size: 32px;
+    }
+
+
+    .account_information_right_block{
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content:flex-end;
+    }
+
+    .account_balance{
+        width: auto;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .account_text{
+        color: #616161;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .account_balance_color_block{
+        width: 300px;
+        height: 100px;
+        background-color: #D4E9D8;
+        border-radius: 30px;
+
+        text-align: center;
+        line-height: 100px;
+
+        font-size: 40px;
+        font-weight: 700;
+        color: #616161;
+    }
+
+    .replenish_balance_of_account_text{
+        width: 100%;
+        height: auto;
+        text-align: end;
+        font-size: 15px;
+        font-weight: 700;
+        color: #B8B8B8;
+    }
+
+    #blue_background{
+        background-color: #CFDDFF;
+    }
+
+  
+    /* -----------Courses studied----------- */
+
+    .courses_studied{
+        width: 100%;
+        max-width: 1200px;
+        margin: 20px auto;
+        height: auto;
+
+        background-color: #EDEDED;
+        padding-bottom: 52px;
+
+    }
+
+    .courses_studied_text{
+        color: #515151;
+        font-size: 32px;
+        font-weight: 600;
+
+        padding-top: 23px;
+        margin-left: 34px;
+    }
+
+    .courses_studied_block{
+        background-color: #FDFF87;
+
+        width: 450px;
+        height: auto;
+        
+        color: black;
+        padding-top: 13px;
+        padding-left: 14px;
+
+        margin-left: 34px;
+        margin-top: 36px;
+    }
+
+    .basics_text{
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    ul{
+        font-size: 30px;
+        color: black;
+        font-weight: 500;
+        margin: 0;
+        margin-left: 30px;
+        padding: 0;
+    }
+
+    .time_in_course_text{
+        margin-top: 15px;
+        font-size: 30px;
+        color: black;
+        font-weight: 700;
+    }
+
+    .progress_bar{
+        width: 100%;
+        height: auto;
+        padding-right: 14px;
+    }
+
+
+    /* -----------Payment----------- */
+
+    .payment{
+        width: 100%;
+        max-width: 1000px;
+        margin: 40px auto;
+        height: auto;
+
+        padding-bottom: 40px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        color: black;
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .payment_img{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .arrow_right{
+        padding-left: 40px;
+        width: 100px;
+    }
