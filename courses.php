@@ -1,3 +1,4 @@
+<?php include("Assets/php/sessionStart.php"); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -86,7 +87,7 @@
               <img src="Assets/images/courses_page/image_6.svg" class="photo_course" alt="">
             </div>
             <div >
-              <a href="/course" class="button_to_start">Начать</a>
+              <a href="basics_course_page.php" class="button_to_start">Начать</a>
             </div>
           </div>
         </div>

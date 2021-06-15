@@ -1,3 +1,4 @@
+<?php include("Assets/php/sessionStart.php"); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -38,7 +39,7 @@
           </div>
 
           <div class="button_text_of_main_block">
-            <a href="#" class="button_to_start">Начать</a>
+            <a href="/course" class="button_to_start">Начать</a>
           </div>
         </div>
         <div class="block_of_left_content">

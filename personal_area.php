@@ -1,3 +1,4 @@
+<?php include("Assets/php/sessionStart.php"); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>

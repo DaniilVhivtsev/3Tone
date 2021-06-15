@@ -58,12 +58,14 @@
                 <a class = "nav_link" href="#">Форум</a>
                 <a class = "nav_link" href="#">Практики</a>
             </nav>
+
         </div>
     </div>
 </header>
 
 <div id="logout" class="modal">
-    <div class="modal-content">
+    <div class="modal-content" style="text-align: center">
+        <a href="personal_area.php" class="nav_link">Личный кабинет</a>
         <button type="button" class="login" id="logout_button" onclick='clearSession();'>Выйти</button>
     </div>
 </div>
