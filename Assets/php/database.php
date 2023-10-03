@@ -1,5 +1,5 @@
 <?php
-    $url='172.18.0.2';
+    $url='db';
     $username='3ToneAdmin';
     $password='1111';
 

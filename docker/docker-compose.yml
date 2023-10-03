@@ -1,7 +1,9 @@
 version: '3.6'
 services:
   db:
-    image: mysql:latest
+    build: 
+      dockerfile: Mysql.dockerfile
+      context: .
     security_opt:
       - seccomp:unconfined
     environment:

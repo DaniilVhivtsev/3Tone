@@ -56,6 +56,6 @@
 </div>
 
 <script type="text/javascript">let name = "<?php if(isset($_SESSION['Email'])) echo $_SESSION['Email']; ?>";</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="/Assets/js/reactiveHeader.js"></script>
 <script type="text/javascript" src="/Assets/js/login.js"></script>
